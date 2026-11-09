@@ -1,0 +1,29 @@
+# Datasets, checkpoints and generated outputs
+/data/
+/ckpts/*
+!/ckpts/init.pth
+/outputs/
+
+# External source dependencies
+/third_party/
+
+# Python and native build outputs
+__pycache__/
+*.py[cod]
+*.so
+*.o
+*.a
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors and local environment files
+.vscode/
+.idea/
+.env
+.env.*
+.DS_Store
